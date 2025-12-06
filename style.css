@@ -1,0 +1,18 @@
+
+/* Small custom styles for effects */
+.ink-bg {
+  background-image: radial-gradient(circle at 10% 20%, rgba(199, 24, 24, 0.08), transparent 8%),
+                    radial-gradient(circle at 85% 80%, rgba(124, 58, 237, 0.06), transparent 12%),
+                    linear-gradient(180deg, rgba(8,10,20,0.7), rgba(6,8,15,0.9));
+  backdrop-filter: blur(2px);
+}
+.brush {
+  mix-blend-mode: screen;
+  opacity: .85;
+  filter: drop-shadow(0 8px 24px rgba(0,0,0,.6));
+}
+.neon {
+  text-shadow: 0 2px 8px rgba(124,58,237,0.25), 0 6px 24px rgba(198,40,40,0.06);
+}
+.bar-bg { background: rgba(255,255,255,0.06); border-radius: 9999px }
+.bar-fill { height: 10px; border-radius: 9999px }
